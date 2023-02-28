@@ -157,20 +157,11 @@ h2{
   }
   @-webkit-keyframes baba-jga {
 		  from {
-		  -webkit-transform: rotate(0) scale(1.1); bottom: 0;
-		  }
-		  50% {
-	  -webkit-transform: rotate(-720deg) scale(1.2); 	bottom: 0;
-	  }
-		  to {
-		  -webkit-transform: rotate(-720deg) scale(3.0); bottom: 100%;
-		  }
-		  }
-		  .baba-jga { 
-			  -webkit-animation: baba-jga 15s;
-			  }
-  
-  @keyframes bouncing{
+		  -webkit-transform: rotate(0) scale(1.1); bottom: 0;}
+		  50% {-webkit-transform: rotate(-720deg) scale(1.2); 	bottom: 0;}
+		  to {-webkit-transform: rotate(-720deg) scale(3.0); bottom: 100%;}  }
+		  .baba-jga { -webkit-animation: baba-jga 15s;}
+    @keyframes bouncing{
 	0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
 	50%  { bottom: 0; box-shadow: 0 0 25px rgba(0,0,0,0.5);}
 	100%{ bottom: 50px; box-shadow: 0 50px 50px rgba(0,0,0,0.1);}
